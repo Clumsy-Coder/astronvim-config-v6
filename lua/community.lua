@@ -97,6 +97,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.yaml" },
 
   -- ------------------------------------------------------------------------------------------- --
   -- programming-language-support
