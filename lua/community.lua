@@ -92,6 +92,7 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
 
   -- ------------------------------------------------------------------------------------------- --
   -- programming-language-support
