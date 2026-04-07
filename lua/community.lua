@@ -7,7 +7,6 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
 
   -- ------------------------------------------------------------------------------------------- --
@@ -87,6 +86,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- pack
+  { import = "astrocommunity.pack.lua" },
 
   -- ------------------------------------------------------------------------------------------- --
   -- programming-language-support
