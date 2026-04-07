@@ -89,6 +89,7 @@ return {
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.lua" },
 
   -- ------------------------------------------------------------------------------------------- --
