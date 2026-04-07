@@ -95,6 +95,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.toml" },
 
   -- ------------------------------------------------------------------------------------------- --
   -- programming-language-support
