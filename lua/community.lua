@@ -115,6 +115,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- recipes
+  { import = "astrocommunity.recipes.heirline-tabline-buffer-number" }, -- show buffer number before the filename. Run using :b<buffer number>
   { import = "astrocommunity.recipes.heirline-vscode-winbar" }, -- show breadcrumbs on the winbar (below bufferline)
 
   -- ------------------------------------------------------------------------------------------- --
