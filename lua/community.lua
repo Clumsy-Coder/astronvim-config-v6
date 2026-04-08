@@ -115,6 +115,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- recipes
+  { import = "astrocommunity.recipes.heirline-vscode-winbar" }, -- show breadcrumbs on the winbar (below bufferline)
 
   -- ------------------------------------------------------------------------------------------- --
   -- register
