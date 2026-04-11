@@ -49,6 +49,8 @@ return {
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
 
+        -- color column
+        colorcolumn = { 100 },
         -- spellfile
         spell = true, -- sets vim.opt.spell
         spelllang = "en_ca",
