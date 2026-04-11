@@ -60,6 +60,20 @@ return {
         spell = true, -- sets vim.opt.spell
         spelllang = "en_ca",
         spellfile = vim.fn.expand "~/.config/nvim/spell/en.utf-8.add",
+
+        -- cursor style
+        -- setting cursor style in different modes
+        -- check current guicursor value with command ':set guicursor'
+        -- https://github.com/AstroNvim/AstroNvim/issues/903#issuecomment-1219860755
+        -- https://vim.fandom.com/wiki/Configuring_the_cursor
+        -- i = insert
+        -- v = visual
+        -- c = command
+        -- n = normal
+        -- guicursor = "n-v-c-i-sm:block,ci-ve:ver25,r-cr-o:hor20",
+
+        splitkeep = "screen",
+        conceallevel = 1,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
