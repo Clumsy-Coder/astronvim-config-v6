@@ -37,7 +37,8 @@ return {
         [".yamllint"] = "yaml",
       },
       pattern = {
-        [".*/etc/foo/.*"] = "fooscript",
+        [".*%.tmux.conf"] = "tmux", -- files in dotfiles/tools/tmux/ folder
+        [".env.*"] = "conf",
       },
     },
     -- vim options can be configured here
