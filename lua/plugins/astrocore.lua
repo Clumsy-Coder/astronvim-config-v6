@@ -116,6 +116,10 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+
+        -- disabled because `obsidian.nvim` plugin uses the which key prefix `<Leader>o
+        -- old keybinding opens the file-explorer
+        ["<Leader>o"] = false,
       },
     },
     -- session management
