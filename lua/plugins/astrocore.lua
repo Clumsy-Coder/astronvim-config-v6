@@ -118,5 +118,24 @@ return {
         -- ["<C-S>"] = false,
       },
     },
+    -- session management
+    -- powered by https://github.com/stevearc/resession.nvim
+    -- obtained from
+    --    https://docs.astronvim.com/recipes/sessions/
+    sessions = {
+      -- Configure auto saving
+      autosave = {
+        last = true, -- auto save last session
+        cwd = true, -- auto save session for each working directory
+      },
+      -- Patterns to ignore when saving sessions
+      ignore = {
+        dirs = {
+          ".git",
+        }, -- working directories to ignore sessions in
+        filetypes = { "gitcommit", "gitrebase" }, -- filetypes to ignore sessions
+        buftypes = {}, -- buffer types to ignore sessions
+      },
+    },
   },
 }
