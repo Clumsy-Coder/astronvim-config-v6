@@ -28,7 +28,8 @@ return {
     filetypes = {
       -- see `:h vim.filetype.add` for usage
       extension = {
-        foo = "fooscript",
+        mdx = "markdown.mdx",
+        qmd = "markdown",
       },
       filename = {
         [".foorc"] = "fooscript",
