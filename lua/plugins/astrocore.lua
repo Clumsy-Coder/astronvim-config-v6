@@ -56,6 +56,7 @@ return {
         list = true, -- show whitespace characters
         listchars = { tab = "│→", extends = "⟩", precedes = "⟨", trail = "·", nbsp = "␣", eol = "↲" },
         showbreak = "↪ ", -- string to put at the start of lines that have been wrapped
+
         -- spellfile
         spell = true, -- sets vim.opt.spell
         spelllang = "en_ca",
@@ -74,6 +75,10 @@ return {
 
         splitkeep = "screen",
         conceallevel = 1,
+
+        -- The minimal number of screen columns to keep to the left and to the right of the cursor
+        -- https://unix.stackexchange.com/a/678286/644926
+        sidescrolloff = 50,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
