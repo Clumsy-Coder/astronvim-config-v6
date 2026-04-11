@@ -46,9 +46,13 @@ return {
       opt = { -- vim.opt.<key>
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
-        spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+
+        -- spellfile
+        spell = true, -- sets vim.opt.spell
+        spelllang = "en_ca",
+        spellfile = vim.fn.expand "~/.config/nvim/spell/en.utf-8.add",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
