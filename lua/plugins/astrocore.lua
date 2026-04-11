@@ -32,7 +32,9 @@ return {
         qmd = "markdown",
       },
       filename = {
-        [".foorc"] = "fooscript",
+        ["Brewfile"] = "ruby",
+        ["dockerfile"] = "dockerfile",
+        [".yamllint"] = "yaml",
       },
       pattern = {
         [".*/etc/foo/.*"] = "fooscript",
